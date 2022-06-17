@@ -1,0 +1,15 @@
+name: Testy 
+
+on: pull
+
+jobs:
+ super-lint:
+  name:
+  runs-on: ubuntu-latest
+  steps:
+   - name:
+     uses:
+     DEFAULT_BRANCH: main
+     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+  
+
